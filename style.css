@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    width:100%;
+}
+.clock-outer {
+  border: 2px solid black;
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  padding-top:5px;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    gap:3px;
+    justify-content: center;
+    
+}
+
+.container{
+    height:inherit;
+    width:inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
